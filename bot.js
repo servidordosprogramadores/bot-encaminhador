@@ -11,7 +11,7 @@ export async function login() {
       client.user.setPresence({
         activities: [{ name: "📝 Projetos da comunidade", type: ActivityType.Watching }],
         status: "online",
-      });f
+      });
       resolve();
     })
   );
