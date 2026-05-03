@@ -63,5 +63,5 @@ app.post("/form-submit", async (req, res) => {
 
 login().then(() => {
   log("BOT", `bot online — ${process.env.BOT_ID}`);
-  app.listen(3000, () => log("SERVER", "servidor rodando na porta 3000"));
+  app.listen(80, () => log("SERVER", "servidor rodando na porta 80"));
 });
